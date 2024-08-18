@@ -11,7 +11,7 @@
         <div>
             <div>
                 <img class="blackHeart" src="images/black-heart.png" alt="black heart" />
-                <span> Nifty Penguin Magic </span>
+                <span> Neverending Pun Machine </span>
             </div>
             <nav>
                 <ul>
@@ -28,11 +28,14 @@
         <div class="form-div">
             <!-- add search bar -->
          <img id="npm-logo"src="images/npm-logo.png" alt="npm logo"> 
-         <form action="/search" method="get">
+         <div class="search-bar">
              <img id="glass-logo" src="images/magnifying-glass.png" alt="magnifying-glass-icon">
-            <input type="text" name="search" placeholder="Search...">
-            <button type="submit">Search</button>
-          </form>
+
+             <form action="/search" method="get">
+                <input type="text" name="search" placeholder="Search packages ">
+                <button type="submit">Search</button>
+              </form>
+         </div>
 
          <a href="#" id="join-link">Join</a>
          <a href="#">Log in</a>
@@ -61,7 +64,41 @@
     </section>
 
     <section id="features-section">
+        <div class="main-div_features">
+            <div>
+                <img src="images/zero-configuration.svg" alt="zero configuration icon">
+                <h3>Zero configuration</h3>
+                <p>Create an org, add your team, and start collaborating.
+                    Nothing to configure, set up, or manage.
+                </p>
+            </div>
+            <div>
+                <img src="images/team-management.svg" alt="team managment icon">
+                <h3>Team managment</h3>
+                <p>Control who has acces to what modules within your team namespace
+                     namespace using straightforward team managment capabilities.
+                </p>
 
+            </div>
+            <div>
+                <img src="images/familiar-features.svg" alt="familiar features icon">
+                <h3>Familiar  features</h3>
+                <p>npm Orgs has 100% parity with all the public npm registry
+                    features your developers alredy use.
+                </p>
+            </div>
+            <div>
+                <img src="images/npm-audit.svg" alt="npm audit icon">
+                <h3>npm audit</h3>
+                <p>Enjoy the security auditing features built into the npm client, a zero-friction
+                    way to make open source software safer.
+                </p>
+            </div>
+
+            
+        </div>
+        <a class="last-button" href="#">Create an Org</a>
     </section>
+    
 </body>
 </html>

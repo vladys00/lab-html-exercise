@@ -10,6 +10,7 @@ body {
 header{
     width: 95%;
     margin: 0 auto;
+   
 }
 
 header > div {
@@ -21,6 +22,7 @@ header > div {
 }
 nav{
     width: 600px;
+    font-weight: 600;
 }
 nav ul {
     display: flex;
@@ -34,36 +36,55 @@ nav a {
     color: black;
   }
 
+  input::placeholder {
+    font-family: 'Poppins';
+  }
 .blackHeart {
-    width: 20px;
+    width: 25px;
     margin-right: 1rem;
   }
 
 .form-div {
+
+    
    
     display: flex;
+    align-items: center;
     flex-direction: row;
-    padding: 0.4rem;
+    padding: 0.4rem 1.5rem 0.4rem 0.4rem ;
+    
 }
 
 #npm-logo {
     width: 70px;
+    margin-left: 1.5rem;
+
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    background-color: rgba(161, 158, 158, 0.2);
+    padding-left: 0.5rem;
 
 }
 
 #glass-logo {
-    width: 3%;
-    height: 3%;
-
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
 }
 
-div form {
+.search-bar form {
     display: flex;
     flex-direction: row;
-    background-color: rgba(161, 158, 158, 0.2);
-    width: 60%;
+    width: 100%;
    
 }
+
+
 
 form input
  {
@@ -108,11 +129,12 @@ div a {
 
 #main-section h1 {
     font-size: 3.8rem;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 #main-section p {
     font-size: 1rem;
+    font-weight: 450 ;
     width: 30%;
     text-align: center;
     margin-bottom: 3rem;
@@ -121,6 +143,7 @@ div a {
     display: flex;
     width: 30%;
     justify-content: space-between;
+    font-weight: 600 ;
 }
 .plans-button {
     
@@ -151,10 +174,12 @@ div a {
 }
 
 #description-section h2 {
+    padding: 0rem 2.5rem 0rem 2.5rem;
     background-color: rgba(255,204,53,.4) ;
     transform: skew(9deg,0deg);
     font-style: italic;
     font-weight: 600;
+    font-size: 2.2rem;
 
 }
 
@@ -162,3 +187,45 @@ div a {
     text-align: center;
     width: 55%;
 }
+
+#features-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem; 
+    font-size: 1rem;   
+    
+
+}
+
+.main-div_features {
+    display: flex;
+    justify-content: space-between;
+    margin: 6.7rem;
+
+}
+
+.main-div_features h3 {
+    color: #ED1C24;
+}
+
+
+.main-div_features div {
+    width: 20%;
+}
+
+.main-div_features img {
+    width: 2rem;
+    
+}
+
+#features-section a {
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 1rem 7rem;
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    font-weight: 500;
+}
+
+
