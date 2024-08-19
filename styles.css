@@ -10,8 +10,12 @@ body {
 header{
     width: 95%;
     margin: 0 auto;
-   
+    
 }
+.blackHeart {
+    width: 25px;
+    margin-right: 1rem;
+  }
 
 header > div {
     padding: 0 25px;
@@ -20,15 +24,29 @@ header > div {
     align-items: center;
     border-bottom: 1px solid lightgray;
 }
+
 nav{
     width: 600px;
     font-weight: 600;
 }
+
 nav ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
+}
+
+#npm-logo {
+    width: 70px;
+    margin-left: 1.5rem;
+
+}
+
+#glass-logo {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
 }
 
 nav a {
@@ -39,10 +57,7 @@ nav a {
   input::placeholder {
     font-family: 'Poppins';
   }
-.blackHeart {
-    width: 25px;
-    margin-right: 1rem;
-  }
+
 
 .form-div {
 
@@ -55,11 +70,6 @@ nav a {
     
 }
 
-#npm-logo {
-    width: 70px;
-    margin-left: 1.5rem;
-
-}
 
 .search-bar {
     display: flex;
@@ -71,11 +81,6 @@ nav a {
 
 }
 
-#glass-logo {
-    width: 1.2rem;
-    height: 1.2rem;
-    margin-right: 0.5rem;
-}
 
 .search-bar form {
     display: flex;
