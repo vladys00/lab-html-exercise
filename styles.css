@@ -180,7 +180,7 @@ div a {
 
 #description-section h2 {
     padding: 0rem 2.5rem 0rem 2.5rem;
-    background-color: rgba(255,204,53,.4) ;
+    background: linear-gradient(rgba(255, 204, 53, 0.4) 80%, transparent 70%);
     transform: skew(9deg,0deg);
     font-style: italic;
     font-weight: 600;
